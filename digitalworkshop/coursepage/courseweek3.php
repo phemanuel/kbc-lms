@@ -98,11 +98,53 @@ a:
       <div class="uk-width-expand@m">
         <div class="uk-article">          
 
-          <h3>Social Media Management Tools and Promotion</h3>
+          <h3>Introduction to  Virtual Assistance</h3>
           <ul class="uk-margin-top" data-uk-accordion="multiple: true">
-           <li>
-              <a class="uk-accordion-title" href="#">Introduction to social media advertising
 
+            <li>
+              <a class="uk-accordion-title" href="#">Segment overview and recap
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson1" data-uk-toggle>Segment overview and recap
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>    
+                    
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Definition and scope of virtual assistance
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson2" data-uk-toggle>Definition and scope of virtual assistance
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>    
+                    
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+           <li>
+              <a class="uk-accordion-title" href="#">Overview of virtual assistance roles and responsibilities
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
@@ -122,17 +164,17 @@ a:
                   </tbody>
                 </table>
               </div>
-            </li>
+            </li>    
 
             <li>
-              <a class="uk-accordion-title" href="#">Social Media advertising strategy 
+              <a class="uk-accordion-title" href="#">Conducting effective online research
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
                 <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
                   <tbody>
                     <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson1" data-uk-toggle>Social Media advertising strategy 
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson3" data-uk-toggle>Conducting effective online research
 
 </a></td>
 
@@ -143,95 +185,10 @@ a:
                   </tbody>
                 </table>
               </div>
-            </li>
+            </li>   
 
             <li>
-              <a class="uk-accordion-title" href="#">Navigating the meta business suite
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson2" data-uk-toggle>Navigating the meta business suite
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Navigating the Facebook ad manager
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson3" data-uk-toggle>Navigating the Facebook ad manager
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-            
-             <li>
-              <a class="uk-accordion-title" href="#">Boosting Instagram Posts
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson6" data-uk-toggle>Boosting Instagram Posts
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-            
-            <li>
-              <a class="uk-accordion-title" href="#">Facebook page creation
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson7" data-uk-toggle>Facebook page creation
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Social media management tools and functionalities
-
+              <a class="uk-accordion-title" href="#">Efficient time management strategies for virtual assistance
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
@@ -239,7 +196,73 @@ a:
                   <tbody>
                     <tr class="uk-text-primary">
                       <td><iframe
-        src="https://drive.google.com/file/d/1ex1Ss_-8561KoS-iJqFXl1__ItijwEbR/preview"
+        src="https://drive.google.com/file/d/1dO3OEebPaWPz4X6oG4TIUFlTfb_B7g0j/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
+                  </tbody>
+                </table>
+              </div>
+            </li>  
+
+            <li>
+              <a class="uk-accordion-title" href="#">Utilizing productivity tools and applications (Slack, Asana, Zendex, etc)
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td><iframe
+        src="https://drive.google.com/file/d/1dO3OEebPaWPz4X6oG4TIUFlTfb_B7g0j/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
+                  </tbody>
+                </table>
+              </div>
+            </li>      
+
+            <li>
+              <a class="uk-accordion-title" href="#">Managing confidentiality and data privacy
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson4" data-uk-toggle>Managing confidentiality and data privacy
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li> 
+
+            <li>
+              <a class="uk-accordion-title" href="#">Establishing boundaries and expectations with clients
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td><iframe
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
         width="100%"
         height="500px"
       >
@@ -254,71 +277,7 @@ a:
             </li>
 
             <li>
-              <a class="uk-accordion-title" href="#">Scheduling and automation of social media content
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson4" data-uk-toggle>Scheduling and automation of social media content
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-            
-            <li>
-              <a class="uk-accordion-title" href="#">Influencer Marketing
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson8" data-uk-toggle>Influencer Marketing
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Social media listening
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson5" data-uk-toggle>Social media listening
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Implementing social listening tools and strategies
-
+              <a class="uk-accordion-title" href="#">Organization and File Management
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
@@ -326,7 +285,7 @@ a:
                   <tbody>
                     <tr class="uk-text-primary">
                       <td><iframe
-        src="https://drive.google.com/file/d/12QBPYSNqj8gBmn0kuVHeQBbNS5nuzGZR/preview"
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
         width="100%"
         height="500px"
       >
@@ -340,6 +299,29 @@ a:
               </div>
             </li>
 
+            <li>
+              <a class="uk-accordion-title" href="#">Validating and verifying sources
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td><iframe
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            
             <li>
               <a class="uk-accordion-title" href="#">Assessment
 
@@ -347,9 +329,9 @@ a:
               <div class="uk-accordion-content">
                 <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
                   <tbody>
-                   <tr class="uk-text-primary">
+                    <tr class="uk-text-primary">
                      <td><iframe
-        src="https://drive.google.com/file/d/1xlTemopOuDe68i37GYmDlKpd_-Ke8Fjm/preview"
+        src="https://drive.google.com/file/d/19uWywxnx6l5sEOXyQ05Zd1_zyofxpkwt/preview"
         width="100%"
         height="500px"
       >
@@ -368,28 +350,8 @@ a:
                   </tbody>
                 </table>
               </div>
-            </li>
+            </li>            
             
-            <li>
-              <a class="uk-accordion-title" href="#">Explanation of assessment expectations
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson9" data-uk-toggle>Explanation of assessment expectations
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
             
           </ul>     
                 
@@ -416,7 +378,7 @@ a:
 	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
 		<button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Social Media advertising strategy
+    <h2 class="uk-modal-title">Segment overview and recap
 
 </h2>
       <iframe src="https://www.youtube.com/embed/8cIfNRuUrGk" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
@@ -430,9 +392,9 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Navigating the meta business suite
+    <h2 class="uk-modal-title">Definition and scope of virtual assistance
 </h2>
-      <iframe src="https://www.youtube.com/embed/lj1dw24KeyE" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+      <iframe src="https://www.youtube.com/embed/LDY7wFxNdyc" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
       
     </div>    
@@ -443,9 +405,9 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Navigating the Facebook ad manager
+    <h2 class="uk-modal-title">Conducting effective online research
 </h2>
-      <iframe src="https://www.youtube.com/embed/WbdgIiOOWVA" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+      <iframe src="https://www.youtube.com/embed/0MXTXf_ES48" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
       
     </div>    
@@ -456,79 +418,15 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Scheduling and automation of social media content
+    <h2 class="uk-modal-title">Managing confidentiality and data privacy
 </h2>
-      <iframe src="https://www.youtube.com/embed/RCe-sSwnqbA" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+      <iframe src="https://www.youtube.com/embed/3aAQXrS_1oI" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
      
     </div>    
   </div>
 </div>
 
-<div id="lesson5" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Social media listening
-</h2>
-      <iframe src="https://www.youtube.com/embed/1wqJMAPhGuM" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-     
-    </div>    
-  </div>
-</div>
-
-<div id="lesson6" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Boosting Instagram Posts
-</h2>
-      <iframe src="https://www.youtube.com/embed/7pPnLEITIkw" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-     
-    </div>    
-  </div>
-</div>
-
-<div id="lesson7" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Facebook page creation
-</h2>
-      <iframe src="https://www.youtube.com/embed/Hj5vK-EyVnE" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-     
-    </div>    
-  </div>
-</div>
-
-<div id="lesson8" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Influencer Marketing
-</h2>
-      <iframe src="https://www.youtube.com/embed/HJK-VVtvUqw" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-     
-    </div>    
-  </div>
-</div>
-
-<div id="lesson9" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Explanation of assessment expectations
-</h2>
-      <iframe src="https://www.youtube.com/embed/X4sAt2s3lSM" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-     
-    </div>    
-  </div>
-</div>
 
 <footer class="uk-section uk-section-secondary uk-section-large">
   <div class="uk-container uk-text-muted">

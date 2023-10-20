@@ -188,14 +188,15 @@ $count3=mysqli_num_rows($result3);
               <form action="uploadassesment1.php" method="post" enctype="multipart/form-data">
                 <label>Note: pdf format only</label><br>
                 
-                <label>Outline</label>
+                <label>Segment</label>
                     <div class="mb-3">
                  <select name="week_no" id="week_no" class="form-control">
-      <option value="1">Introduction to Social Media Management</option>
-      <option value="2">Mastering Content Creation and Strategy</option>
-      <option value="3">Social Media Management Tools and Promotion</option>
-      <option value="4">Community Engagement and Analytics</option>
+      <option value="1">Introduction to Social Media Management & Content Creation</option>
+      <option value="2">Social Media Management Tools, Strategy & Analytics</option>
+      <option value="3">Introduction to  Virtual Assistance</option>
+      <option value="4">Specialized Virtual Assistant Skills</option>
       <option value="5">Canva Design</option>
+      <option value="6">Freelancing</option>
     </select>
                 </div> 
                 <div class="mb-3">

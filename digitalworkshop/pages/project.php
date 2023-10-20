@@ -17,7 +17,7 @@ else {
 $useremail = $_SESSION['user_email'] ;
 $userpass  = $_SESSION['user_pass'];
 $course_code = $_SESSION['course_code'] ;
-$course_code = $_SESSION['course_code'] ;
+
 
 $sql="SELECT * FROM training WHERE user_email='$useremail' and user_pass='$userpass'";
 $result=mysqli_query($conn,$sql);
@@ -50,7 +50,7 @@ $_SESSION['phoneno'] = $rowval['phone_no'];
 
 
 //----get total course enrolled for----
-$sql1="SELECT * FROM coursereg WHERE user_email='$useremail'";
+$sql1="SELECT * FROM coursereg WHERE user_email='$useremail' and course_code = '$course_code'";
 $result1=mysqli_query($conn,$sql1);
 
 // Mysql_num_row is counting table row
@@ -85,7 +85,7 @@ else{
 //=====
 
 //----get total assessment----
-$sql2="SELECT * FROM assesment WHERE user_email='$useremail'";
+$sql2="SELECT * FROM assesment WHERE user_email='$useremail'and course_code = '$course_code'";
 $result2=mysqli_query($conn,$sql2);
 
 // Mysql_num_row is counting table row
@@ -94,14 +94,14 @@ $count2=mysqli_num_rows($result2);
 //=====
 
 //----get total projects----
-$sql3="SELECT * FROM project WHERE user_email='$useremail'";
+$sql3="SELECT * FROM project WHERE user_email='$useremail'and course_code = '$course_code'";
 $result3=mysqli_query($conn,$sql3);
 
 // Mysql_num_row is counting table row
 $count3=mysqli_num_rows($result3);
 
 //=====check for eligibility to submit project======
-if ($current_stage < 4) {
+if ($current_stage < 6) {
 
 echo "<script>
 alert('You cannot submit your project now as you have not completed the required lessons.')

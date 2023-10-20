@@ -98,18 +98,233 @@ a:
       <div class="uk-width-expand@m">
         <div class="uk-article">          
 
-          <h3>Mastering Content Creation and Strategy</h3>
+          <h3>Freelancing</h3>
           <ul class="uk-margin-top" data-uk-accordion="multiple: true">
+
+            <li>
+              <a class="uk-accordion-title" href="#">Segment overview and recap
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson1" data-uk-toggle>Segment overview and recap
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Introduction to freelancing
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson2" data-uk-toggle>Introduction to freelancing
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Gadgets you’ll need as a freelancer
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td><iframe
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
+                  </tbody>
+                </table>
+              </div>
+            </li>
             
             <li>
-              <a class="uk-accordion-title" href="#">Social media management skills
+              <a class="uk-accordion-title" href="#">Managing client relationships
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
                 <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
                   <tbody>
                     <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson1" data-uk-toggle>Social media management skills
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson3" data-uk-toggle>Managing client relationships
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>       
+
+            <li>
+              <a class="uk-accordion-title" href="#">Setting up a social media management business
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson4" data-uk-toggle>Setting up a social media management business
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>    
+
+            <li>
+              <a class="uk-accordion-title" href="#">Setting rates and negotiating contracts
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td><iframe
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Client intake
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td><iframe
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
+                  </tbody>
+                </table>
+              </div>
+            </li>  
+
+            <li>
+              <a class="uk-accordion-title" href="#">Extra income services you can offer as a social media manager
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson5" data-uk-toggle>Extra income services you can offer as a social media manager
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>      
+
+            <li>
+              <a class="uk-accordion-title" href="#">Finding and securing virtual assistance clients
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td><iframe
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Templates
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td><iframe
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Upwork and Linkedin Optimization
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson1" data-uk-toggle>Upwork and Linkedin Optimization
 
 </a></td>
 
@@ -120,304 +335,6 @@ a:
                 </table>
               </div>
             </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Conducting market and competitor research
-
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td><iframe
-        src="https://drive.google.com/file/d/1OXZRnbAj8UPRghX6NjcPPF5n7cyMqoPX/preview"
-        width="100%"
-        height="500px"
-      >
-      </iframe>
-</td>
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>          
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Content Creation
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson2" data-uk-toggle>Content Creation 1
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>   
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson3" data-uk-toggle>Content Creation 2
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>                        
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Social media content creation
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson4" data-uk-toggle>Content Creation 1
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>   
-                                         
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Content writing
-
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td><iframe
-        src="https://drive.google.com/file/d/1sYud2_VGtMyeddKbv4gkcQdUmGFmSMV2/preview"
-        width="100%"
-        height="500px"
-      >
-      </iframe>
-</td>
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>          
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Content writing tools
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td><iframe
-        src="https://drive.google.com/file/d/1423idOyUYSSs4AvVkk4zbxo88-21Azbq/preview"
-        width="100%"
-        height="500px"
-      >
-      </iframe>
-</td>
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>          
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">What makes content viral
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson5" data-uk-toggle>What makes content viral
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-             <li>
-              <a class="uk-accordion-title" href="#">Social media content strategy
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson6" data-uk-toggle>Social media content strategy
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-             <li>
-              <a class="uk-accordion-title" href="#">Developing a content strategy
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson7" data-uk-toggle>Developing a content strategy 1
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson8" data-uk-toggle>Developing a content strategy 2
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>  
-                  </tbody>
-                </table>
-              </div>
-            </li>
-             <li>
-              <a class="uk-accordion-title" href="#">Target audience
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson9" data-uk-toggle>Target audience
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-             <li>
-              <a class="uk-accordion-title" href="#">Target audience identification and segmentation
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson10" data-uk-toggle>Target audience identification and segmentation
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-             <li>
-              <a class="uk-accordion-title" href="#">Utilizing storytelling techniques to connect with the audience
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson11" data-uk-toggle>Utilizing storytelling techniques to connect with the audience
-
-</a></td>
-
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">User-Generated Content for authenticity and engagement
-
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td><iframe
-        src="https://drive.google.com/file/d/1f35fk6A8TQXlhLp4usCccRcNg90GKEVa/preview"
-        width="100%"
-        height="500px"
-      >
-      </iframe>
-</td>
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>          
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Creating a content calendar and schedule
-
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td><iframe
-        src="https://drive.google.com/file/d/1JR30XVxhpZ-1-RUCy12tTsCks32uo5c4/preview"
-        width="100%"
-        height="500px"
-      >
-      </iframe>
-</td>
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>          
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
 
             <li>
               <a class="uk-accordion-title" href="#">Assessment
@@ -474,7 +391,7 @@ a:
 	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
 		<button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Social media management skills
+    <h2 class="uk-modal-title">Segment overview and recap
 
 </h2>
       <iframe src="https://www.youtube.com/embed/302RcC8nitY" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
@@ -488,7 +405,7 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Content Creation 1 
+    <h2 class="uk-modal-title">Introduction to freelancing
 </h2>
       <iframe src="https://www.youtube.com/embed/Zd2SCIsbB-s" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
@@ -501,7 +418,7 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Content creation 2
+    <h2 class="uk-modal-title">Managing client relationships
 </h2>
       <iframe src="https://www.youtube.com/embed/k30eRF1umkg" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
@@ -514,7 +431,7 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Social media content creation
+    <h2 class="uk-modal-title">Setting up a social media management business
 </h2>
       <iframe src="https://www.youtube.com/embed/As1Ne8zGQzc" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
@@ -527,7 +444,7 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">What makes content viral
+    <h2 class="uk-modal-title">Extra income services you can offer as a social media manager
 </h2>
       <iframe src="https://www.youtube.com/embed/tazuPDn_xqg" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
@@ -540,7 +457,7 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Social media content strategy
+    <h2 class="uk-modal-title">Upwork and Linkedin Optimization
 </h2>
       <iframe src="https://www.youtube.com/embed/Q7upeSOu-LI" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
@@ -549,71 +466,7 @@ a:
   </div>
 </div>
 
-<div id="lesson7" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Developing a content strategy 1
 
-</h2>
-      <iframe src="https://www.youtube.com/embed/WTsfaQREKJ4" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-      
-    </div>    
-  </div>
-</div>
-
-<div id="lesson8" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Developing a content strategy 2
-</h2>
-      <iframe src="https://www.youtube.com/embed/nHtfIR8JPSc" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-      
-    </div>    
-  </div>
-</div>
-
-<div id="lesson9" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Target audience
-</h2>
-      <iframe src="https://www.youtube.com/embed/ZY4RmRsLyhs" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-      
-    </div>    
-  </div>
-</div>
-
-<div id="lesson10" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Target audience identification and segmentation
-</h2>
-      <iframe src="https://www.youtube.com/embed/bRuCI1veTco" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-     
-    </div>    
-  </div>
-</div>
-
-<div id="lesson11" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Utilizing storytelling techniques to connect with the audience
-</h2>
-      <iframe src="https://www.youtube.com/embed/ifgKGs_rF58" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-     
-    </div>    
-  </div>
-</div>
 
 <footer class="uk-section uk-section-secondary uk-section-large">
   <div class="uk-container uk-text-muted">

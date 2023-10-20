@@ -98,11 +98,74 @@ a:
       <div class="uk-width-expand@m">
         <div class="uk-article">          
 
-          <h3><a href="courseweek4.php">Community Engagement and Analytics</a></h3>
+          <h3>Specialized Virtual Assistant Skills</h3>
           <ul class="uk-margin-top" data-uk-accordion="multiple: true">
             
             <li>
-              <a class="uk-accordion-title" href="#">Managing your online presence
+              <a class="uk-accordion-title" href="#">Segment overview and recap
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson1" data-uk-toggle>Segment overview and recap
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>    
+                    
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Administrative Support
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson2" data-uk-toggle>Administrative Support
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>    
+                    
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Managing emails and scheduling
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson3" data-uk-toggle>Managing emails and scheduling
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>    
+                    
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Data entry and database management
 
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
@@ -123,77 +186,74 @@ a:
                   </tbody>
                 </table>
               </div>
-            </li>
+            </li>  
 
             <li>
-              <a class="uk-accordion-title" href="#">Building an online community and fostering engagement
+              <a class="uk-accordion-title" href="#">Online meeting coordination and note-taking
+
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
                 <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
                   <tbody>
                     <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson1" data-uk-toggle>Building an online community and fostering engagement
+                      <td><iframe
+        src="https://drive.google.com/file/d/1HqN5jjCbbuT6TFow9YgwktSfKtga9Bsw/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
+                  </tbody>
+                </table>
+              </div>
+            </li>  
+
+            <li>
+              <a class="uk-accordion-title" href="#">Travel and event planning
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson4" data-uk-toggle>Travel and event planning
 
 </a></td>
 
                       <td><span data-uk-icon="unlock"></span></td>
                       <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
+                    </tr>                        
                   </tbody>
                 </table>
               </div>
             </li>
 
             <li>
-              <a class="uk-accordion-title" href="#">Addressing customer feedback and inquiries 
-
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td><iframe
-        src="https://drive.google.com/file/d/1a71f_Hlf60BJp1uu3rSQcejwY2iQ0jft/preview"
-        width="100%"
-        height="500px"
-      >
-      </iframe>
-</td>
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>          
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Encouraging user-generated content and interactions
+              <a class="uk-accordion-title" href="#">Financial Assistance
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
                 <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
                   <tbody>
                     <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson2" data-uk-toggle>Encouraging user-generated content and interactions
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson5" data-uk-toggle>Financial Assistance
 
 </a></td>
 
                       <td><span data-uk-icon="unlock"></span></td>
                       <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
+                    </tr>                        
                   </tbody>
                 </table>
               </div>
             </li>
 
             <li>
-              <a class="uk-accordion-title" href="#">Defining key social media metrics and KPIs
-
+              <a class="uk-accordion-title" href="#">Tracking expenses and income for clients
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
@@ -201,7 +261,7 @@ a:
                   <tbody>
                     <tr class="uk-text-primary">
                       <td><iframe
-        src="https://drive.google.com/file/d/16jhvn98qxVW8kNWN2QbVw3qgkHqZ8bri/preview"
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
         width="100%"
         height="500px"
       >
@@ -216,101 +276,127 @@ a:
             </li>
 
             <li>
-              <a class="uk-accordion-title" href="#">Utilizing social media analytics tools
-
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td><iframe
-        src="https://drive.google.com/file/d/1Y8bbonvz-N_g-ivjg6DV6UMFucv_o2RX/preview"
-        width="100%"
-        height="500px"
-      >
-      </iframe>
-</td>
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>          
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Calculating insights and ROI 
-
+              <a class="uk-accordion-title" href="#">Working through unfamiliar tasks
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
                 <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
                   <tbody>
                     <tr class="uk-text-primary">
-                      <td><iframe
-        src="https://drive.google.com/file/d/1faAU0Osy9Vl4HXe_1CyDn9OYTQspHlAV/preview"
-        width="100%"
-        height="500px"
-      >
-      </iframe>
-</td>
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>          
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-             <li>
-              <a class="uk-accordion-title" href="#">Assessing the impact of community engagement on business goals 
-
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td><iframe
-        src="https://drive.google.com/file/d/1eFxF7t_AOZ2MIQK9RMOepXApEQd3Tb6d/preview"
-        width="100%"
-        height="500px"
-      >
-      </iframe>
-</td>
-                      <td><span data-uk-icon="unlock"></span></td>
-                      <td class="uk-table-shrink"></td>
-                    </tr>          
-                  </tbody>
-                </table>
-              </div>
-            </li>
-
-            <li>
-              <a class="uk-accordion-title" href="#">Continuous learning and professional development
-
-<span class="uk-align-right uk-margin-remove-bottom"></span></a>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
-                  <tbody>
-                    <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson3" data-uk-toggle>Continuous learning and professional development
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson6" data-uk-toggle>Working through unfamiliar tasks
 
 </a></td>
 
                       <td><span data-uk-icon="unlock"></span></td>
                       <td class="uk-table-shrink"></td>
-                    </tr>    
-                    
+                    </tr>                        
                   </tbody>
                 </table>
               </div>
             </li>
 
             <li>
-              <a class="uk-accordion-title" href="#">Glossary
+              <a class="uk-accordion-title" href="#">Google Workspace
 
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson7" data-uk-toggle>Google Workspace
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Monday.com
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson8" data-uk-toggle>Monday.com
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Clickup
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson9" data-uk-toggle>Clickup
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Asana
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson10" data-uk-toggle>Asana
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Slack
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson11" data-uk-toggle>Slack
+
+</a></td>
+
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>                        
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li>
+              <a class="uk-accordion-title" href="#">Places to learn online
 
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
@@ -318,7 +404,7 @@ a:
                   <tbody>
                     <tr class="uk-text-primary">
                       <td><iframe
-        src="https://drive.google.com/file/d/1TqMwa_lZ6-4YFnhooLZU_mgXe4M-dbMy/preview"
+        src="https://drive.google.com/file/d/16Vuezd-1DyAwwrijmtp9LYCfh8IKfJGj/preview"
         width="100%"
         height="500px"
       >
@@ -372,7 +458,7 @@ a:
         <div data-uk-sticky="offset: 100; bottom: true; media: @m">
           <div class="uk-card uk-card-default uk-card-body uk-width-1-1 uk-border-rounded-large">
             
-            <a href="../pages/project.php" class="uk-button uk-button-primary-preserve uk-button-large uk-width-1-1">Submit Assessment</a>
+            <a href="../pages/assesment.php" class="uk-button uk-button-primary-preserve uk-button-large uk-width-1-1">Submit Assessment</a>
             
             
           </div>			
@@ -387,7 +473,7 @@ a:
 	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
 		<button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Building an online community and fostering engagement
+    <h2 class="uk-modal-title">Segment overview and recap
 
 </h2>
       <iframe src="https://www.youtube.com/embed/bhzNxvEaoxQ" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
@@ -401,7 +487,7 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Encouraging user-generated content and interactions
+    <h2 class="uk-modal-title">Administrative Support
 </h2>
       <iframe src="https://www.youtube.com/embed/726cBeF-4dw" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
@@ -414,9 +500,9 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Continuous learning and professional development
+    <h2 class="uk-modal-title">Managing emails and scheduling
 </h2>
-      <iframe src="https://www.youtube.com/embed/WS-C5MO6lU8" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+      <iframe src="https://www.youtube.com/embed/xtDqXHLz6o4" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
       
     </div>    
@@ -427,9 +513,100 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Continuous learning and professional development
+    <h2 class="uk-modal-title">Travel and event planning
 </h2>
-      <iframe src="https://www.youtube.com/embed/fWvvZosKlXM" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+      <iframe src="https://www.youtube.com/embed/B8Z-jDaFHfY" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+    <div class="uk-margin-top uk-article uk-text-muted">
+     
+    </div>    
+  </div>
+</div>
+
+<div id="lesson5" class="uk-flex-top uk-modal-container" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
+    uk-border-rounded-large">
+    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+    <h2 class="uk-modal-title">Financial Assistance
+</h2>
+      <iframe src="https://www.youtube.com/embed/B8Z-jDaFHfY" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+    <div class="uk-margin-top uk-article uk-text-muted">
+     
+    </div>    
+  </div>
+</div>
+
+<div id="lesson6" class="uk-flex-top uk-modal-container" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
+    uk-border-rounded-large">
+    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+    <h2 class="uk-modal-title">Working through unfamiliar tasks
+</h2>
+      <iframe src="https://www.youtube.com/embed/GmLbz2hIJPY" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+    <div class="uk-margin-top uk-article uk-text-muted">
+     
+    </div>    
+  </div>
+</div>
+
+<div id="lesson7" class="uk-flex-top uk-modal-container" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
+    uk-border-rounded-large">
+    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+    <h2 class="uk-modal-title">Google Workspace
+</h2>
+      <iframe src="https://www.youtube.com/embed/B8Z-jDaFHfY" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+    <div class="uk-margin-top uk-article uk-text-muted">
+     
+    </div>    
+  </div>
+</div>
+
+<div id="lesson8" class="uk-flex-top uk-modal-container" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
+    uk-border-rounded-large">
+    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+    <h2 class="uk-modal-title">Monday.com
+</h2>
+      <iframe src="https://www.youtube.com/embed/B8Z-jDaFHfY" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+    <div class="uk-margin-top uk-article uk-text-muted">
+     
+    </div>    
+  </div>
+</div>
+
+<div id="lesson9" class="uk-flex-top uk-modal-container" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
+    uk-border-rounded-large">
+    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+    <h2 class="uk-modal-title">Clickup
+</h2>
+      <iframe src="https://www.youtube.com/embed/B8Z-jDaFHfY" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+    <div class="uk-margin-top uk-article uk-text-muted">
+     
+    </div>    
+  </div>
+</div>
+
+<div id="lesson10" class="uk-flex-top uk-modal-container" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
+    uk-border-rounded-large">
+    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+    <h2 class="uk-modal-title">Asana
+</h2>
+      <iframe src="https://www.youtube.com/embed/B8Z-jDaFHfY" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+    <div class="uk-margin-top uk-article uk-text-muted">
+     
+    </div>    
+  </div>
+</div>
+
+<div id="lesson11" class="uk-flex-top uk-modal-container" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
+    uk-border-rounded-large">
+    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+    <h2 class="uk-modal-title">Slack
+</h2>
+      <iframe src="https://www.youtube.com/embed/B8Z-jDaFHfY" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
      
     </div>    

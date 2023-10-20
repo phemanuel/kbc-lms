@@ -98,7 +98,7 @@ a:
       <div class="uk-width-expand@m">
         <div class="uk-article">          
 
-          <h3><a href="courseweek5.php">Canva Design</a></h3>
+          <h3>Canva Design</h3>
           <ul class="uk-margin-top" data-uk-accordion="multiple: true">
             <li class="uk-open">
               <a class="uk-accordion-title" href="#">Introduction to Canva
@@ -523,15 +523,47 @@ a:
               </div>
             </li>
 
+            <li>
+              <a class="uk-accordion-title" href="#">Assessment
+
+<span class="uk-align-right uk-margin-remove-bottom"></span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                   <tr class="uk-text-primary">
+                     <td><iframe
+        src="https://drive.google.com/file/d/1cg0TdugMadOAWYlkyLTN--cHqTRk2JQt/preview"
+        width="100%"
+        height="500px"
+      >
+      </iframe>
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>        
+                    <tr class="uk-text-primary">
+                      <td><span></span>Click on the <strong>Submit Assessment button</strong> to upload your assessment for the week.
+
+</td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>  
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
           </ul>     
                 
         </div>
 
 
       </div>
+
       <div class="uk-width-1-3@m">
         <div data-uk-sticky="offset: 100; bottom: true; media: @m">
           <div class="uk-card uk-card-default uk-card-body uk-width-1-1 uk-border-rounded-large">
+             <a href="../pages/assesment.php" class="uk-button uk-button-primary-preserve uk-button-large uk-width-1-1">Submit Assessment</a>
           </div>			
           
         </div>
