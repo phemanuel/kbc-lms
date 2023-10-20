@@ -196,6 +196,22 @@ $class_link6 = "Start Lesson" ;
   $lesson_status6 = "Not Completed" ;
 }
 //======
+//======week 7
+$sql10="SELECT * FROM project WHERE user_email='$useremail' and week=6 and course_code='$course_code'and review_status='Approved'";
+$result10=mysqli_query($conn,$sql10);
+
+// Mysql_num_row is counting table row
+$count10=mysqli_num_rows($result10);
+if ($count10>=1){
+  $class_link7 = "View" ;
+  $lesson_status7 = "Completed" ;
+}
+else {
+
+$class_link7 = "Start Project" ;
+  $lesson_status7 = "Not Completed" ;
+}
+//======
 ?>
 
 <!--
@@ -532,8 +548,11 @@ $class_link6 = "Start Lesson" ;
                       
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody>                    
                     <tr>
+                      <td class="align-middle text-center text-sm">
+                        <a href="week1.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link1 ?></span></a>
+                      </td>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
@@ -547,14 +566,13 @@ $class_link6 = "Start Lesson" ;
                       </td>
                       <td class="align-middle text-center text-sm">
                         <a href="#"><span class="badge badge-sm bg-gradient-secondary"><?php echo $lesson_status1 ;  ?></span></a>
-                      </td>
-
-                      <td class="align-middle text-center text-sm">
-                        <a href="week1.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link1 ?></span></a>
-                      </td>                     
+                      </td>              
                       
                     </tr>
                         <tr>
+                          <td class="align-middle text-center text-sm">
+                        <a href="week2.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link2 ;  ?></span></a>
+                      </td> 
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
@@ -569,13 +587,14 @@ $class_link6 = "Start Lesson" ;
                       <td class="align-middle text-center text-sm">
                         <a href="#"><span class="badge badge-sm bg-gradient-secondary"><?php echo $lesson_status2 ;  ?></span></a>
                       </td>
-                      <td class="align-middle text-center text-sm">
-                        <a href="week2.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link2 ;  ?></span></a>
-                      </td>                     
+                                          
                       
                     </tr>
 
                      <tr>
+                       <td class="align-middle text-center text-sm">
+                        <a href="week3.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link3 ;  ?></span></a>
+                      </td> 
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
@@ -589,12 +608,13 @@ $class_link6 = "Start Lesson" ;
                       <td class="align-middle text-center text-sm">
                         <a href="#"><span class="badge badge-sm bg-gradient-secondary"><?php echo $lesson_status3 ;  ?></span></a>
                       </td>
-                      <td class="align-middle text-center text-sm">
-                        <a href="week3.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link3 ;  ?></span></a>
-                      </td>                     
+                                         
                       
                     </tr>                   
                     <tr>
+                      <td class="align-middle text-center text-sm">
+                        <a href="week4.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link4 ;  ?></span></a>
+                      </td>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
@@ -608,13 +628,14 @@ $class_link6 = "Start Lesson" ;
                       <td class="align-middle text-center text-sm">
                         <a href="#"><span class="badge badge-sm bg-gradient-secondary"><?php echo $lesson_status4 ;  ?></span></a>
                       </td>
-                      <td class="align-middle text-center text-sm">
-                        <a href="week4.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link4 ;  ?></span></a>
-                      </td>                     
+                                           
                       
                     </tr> 
 
                     <tr>
+                      <td class="align-middle text-center text-sm">
+                        <a href="week5.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link5 ;  ?></span></a>
+                      </td> 
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
@@ -628,13 +649,14 @@ $class_link6 = "Start Lesson" ;
                       <td class="align-middle text-center text-sm">
                         <a href="#"><span class="badge badge-sm bg-gradient-secondary"><?php echo $lesson_status5 ;  ?></span></a>
                       </td>
-                      <td class="align-middle text-center text-sm">
-                        <a href="week5.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link5 ;  ?></span></a>
-                      </td>                     
+                                          
                       
                     </tr> 
 
                     <tr>
+                      <td class="align-middle text-center text-sm">
+                        <a href="week6.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link6 ;  ?></span></a>
+                      </td> 
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
@@ -648,11 +670,30 @@ $class_link6 = "Start Lesson" ;
                       <td class="align-middle text-center text-sm">
                         <a href="#"><span class="badge badge-sm bg-gradient-secondary"><?php echo $lesson_status6 ;  ?></span></a>
                       </td>
-                      <td class="align-middle text-center text-sm">
-                        <a href="week6.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link6 ;  ?></span></a>
-                      </td>                     
+                                          
                       
                     </tr> 
+
+                    <tr>
+                      <td class="align-middle text-center text-sm">
+                        <a href="week7.php"><span class="badge badge-sm bg-gradient-success"><?php echo $class_link7 ;  ?></span></a>
+                      </td> 
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div>
+                            <img src="../assets/img/smm.jpg" class="avatar avatar-sm me-3" alt="user1">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm"><strong>Final Project</strong></h6>                            
+                          </div>
+                        </div>
+                      </td>
+                      <td class="align-middle text-center text-sm">
+                        <a href="#"><span class="badge badge-sm bg-gradient-secondary"><?php echo $lesson_status7 ;  ?></span></a>
+                      </td>
+                                          
+                      
+                    </tr>
 
                   </tbody>
                 </table>

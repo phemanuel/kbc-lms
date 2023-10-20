@@ -471,7 +471,7 @@ $count=mysqli_num_rows($result1);
 if ($result1->num_rows > 0) {
 
 
-echo "<table class='table align-items-center mb-0' width='90%' align='Center'><thead><tr><th class='mb-0 text-sm'>S/NO</th><th class='mb-0 text-sm'>WEEK</th><th class='mb-0 text-sm'>DATE SUBMITTED</th><th class='mb-0 text-sm'>FILE</th><th class='mb-0 text-sm'></th></tr></thead>";
+echo "<table class='table align-items-center mb-0' width='90%' align='Center'><thead><tr><th class='mb-0 text-sm'>S/NO</th><th class='mb-0 text-sm'>SEGMENT</th><th class='mb-0 text-sm'>DATE SUBMITTED</th><th class='mb-0 text-sm'>FILE</th><th class='mb-0 text-sm'></th></tr></thead>";
 
 
      // output data of each row
