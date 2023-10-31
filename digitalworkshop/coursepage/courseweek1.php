@@ -99,24 +99,26 @@ a:
 
             <li>
               <a class="uk-accordion-title" href="#">Social media management overview
-
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
                 <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
                   <tbody>
                     <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson2" data-uk-toggle>Social media management overview
-
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson2" data-uk-toggle>Social media management overview 1
 </a></td>
-
                       <td><span data-uk-icon="unlock"></span></td>
                       <td class="uk-table-shrink"></td>
-                    </tr>                        
+                    </tr>    
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson9" data-uk-toggle>Social media management overview 2
+</a></td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink"></td>
+                    </tr>          
                   </tbody>
                 </table>
               </div>
-            </li>
-            
+            </li>            
 
             <li>
               <a class="uk-accordion-title" href="#">Social media success stories vs disasters 
@@ -364,7 +366,7 @@ a:
                   <tbody>
                     <tr class="uk-text-primary">
                      <td><iframe
-        src="https://drive.google.com/file/d/1qH56dJT-bp8A5SbtmTg9XmBxRJ8SPz9V/preview"
+        src="https://drive.google.com/file/d/1-ufHhDlT1DzSfo3rrFuA0fjM7JR3U_w8/preview"
         width="100%"
         height="500px"
       >
@@ -413,7 +415,7 @@ a:
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
     <h2 class="uk-modal-title">Segment overview
 </h2>
-      <iframe src="https://www.youtube.com/embed/vUAqYJ7xDcA" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+      <iframe src="https://www.youtube.com/embed/d72c132FGHE" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
       
     </div>    
@@ -424,9 +426,9 @@ a:
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Social media management overview
+    <h2 class="uk-modal-title">Social media management overview 1
 </h2>
-      <iframe src="https://www.youtube.com/embed/gUgjTPvBsY0" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+      <iframe src="https://www.youtube.com/embed/vUAqYJ7xDcA" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
       
     </div>    
@@ -505,6 +507,19 @@ a:
     <h2 class="uk-modal-title">How to find target audience
 </h2>
       <iframe src="https://www.youtube.com/embed/bRuCI1veTco" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+    <div class="uk-margin-top uk-article uk-text-muted">
+      
+    </div>    
+  </div>
+</div>
+
+<div id="lesson9" class="uk-flex-top uk-modal-container" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
+    uk-border-rounded-large">
+    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+    <h2 class="uk-modal-title">Social media management overview 2
+</h2>
+      <iframe src="https://www.youtube.com/embed/gUgjTPvBsY0" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
       
     </div>    

@@ -60,14 +60,14 @@
           <h3></h3>
           <ul class="uk-margin-top" data-uk-accordion="multiple: true">
             <li class="uk-open">
-              <a class="uk-accordion-title" href="#">Onboarding brief
+              <a class="uk-accordion-title" href="#">Your Journey Begins Here!
 <span class="uk-align-right uk-margin-remove-bottom"></span></a>
               <div class="uk-accordion-content">
                                  
                   <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
                   <tbody>
                     <tr class="uk-text-primary">
-                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson1" data-uk-toggle>Onboarding brief
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson1" data-uk-toggle>Your Journey Begins Here!
 </a></td>
                       <td><span data-uk-icon="unlock"></span></td>
                       <td class="uk-table-shrink"></td>
@@ -115,30 +115,15 @@
   <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
     uk-border-rounded-large">
     <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Onboarding brief
+    <h2 class="uk-modal-title">Your Journey Begins Here!
 </h2>
-      <iframe src="https://www.youtube.com/embed/SC452RJcET4" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
+      <iframe src="https://www.youtube.com/embed/mCMmigP5LUc" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
     <div class="uk-margin-top uk-article uk-text-muted">
       
     </div>    
   </div>
 </div>
 
-<div id="lesson2" class="uk-flex-top uk-modal-container" data-uk-modal>
-  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-light uk-background-secondary 
-    uk-border-rounded-large">
-    <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-    <h2 class="uk-modal-title">Course Introduction & Objectives
-</h2>
-      <iframe src="https://player.vimeo.com/video/126241629" width="1000" height="562" data-uk-responsive data-uk-video></iframe>
-    <div class="uk-margin-top uk-article uk-text-muted">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-        dolore magna aliqua. Ut enim ad minim reprehenderit in voluptate velit esse cillum dolore eu 
-        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-        deserunt mollit anim id est laborum.</p>
-    </div>    
-  </div>
-</div>
 
 
 <footer class="uk-section uk-section-secondary uk-section-large">
