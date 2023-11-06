@@ -23,6 +23,6 @@ die('error:' . mysqli_error($conn));
 
 echo "<script>
 alert('Your feedback has been recieved, you can proceed to your lesson.')
-window.location.href='../pages/dashboard.php';
+window.location.href='../pages/dashboard';
 </script>";
 ?>

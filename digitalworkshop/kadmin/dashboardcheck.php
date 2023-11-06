@@ -1,6 +1,6 @@
 <?php
 echo "<script>
 
-window.location.href='dashboard.php';
+window.location.href='dashboard';
 </script>";
 ?>

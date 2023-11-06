@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -129,7 +129,7 @@ $_SESSION['phoneno'] = $rowval['phone_no'];
               
             </div>
             <div class="card-body">
-              <form action="acctupdate.php" method="post">
+              <form action="acctupdate" method="post">
                 <label>Last Name</label>
                 <div class="mb-3">
                   <input type="text" name="last_name" class="form-control" placeholder="" aria-label="Last Name" aria-describedby="email-addon" value="<?php echo $lastname ?>">
@@ -153,7 +153,7 @@ $_SESSION['phoneno'] = $rowval['phone_no'];
                 <label>Country</label>
                 <div class="mb-3">
                   <?php
-require "dbconfig1.php";// Database connection
+require "dbconfig.php1";// Database connection
 //////////////////////////////
 echo "<select name= 'country_name' class='form-control'>";
 echo '<option value="">'.$location.'</option>';

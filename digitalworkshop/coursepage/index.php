@@ -38,10 +38,10 @@
 	            </div>
 	          </div>
             <div class="uk-navbar-item">
-              <div><a class="uk-button uk-button-primary-light" href="../pages/login.php">Sign In</a></div>
+              <div><a class="uk-button uk-button-primary-light" href="../pages/login">Sign In</a></div>
             </div>
 	          <div class="uk-navbar-item">
-	            <div><a class="uk-button uk-button-primary-light" href="../pages/sign-up.php">Sign Up</a></div>
+	            <div><a class="uk-button uk-button-primary-light" href="../pages/sign-up">Sign Up</a></div>
 	          </div>          
 	          <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span
 	            data-uk-navbar-toggle-icon></span></a>
@@ -157,7 +157,7 @@
               <span>(20)</span>
             </div>
           </div>
-          <a href="../pages/sign-up.php" class="uk-position-cover"></a>
+          <a href="../pages/sign-up" class="uk-position-cover"></a>
         </div>
       </div>
       

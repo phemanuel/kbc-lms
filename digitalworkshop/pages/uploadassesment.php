@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -64,12 +64,12 @@ $current_stage = $rowval['current_stage'];
 }
   //====
   $link_name = "Continue" ;
-  $link = "classroom.php" ;
+  $link = "classroom" ;
 
 }
 elseif ($count1== 0){
   $link_name = "Enroll" ;
-  $link = "enroll.php" ;
+  $link = "enroll" ;
   $progress = "0";
   $current_stage = "N/A";
 $course_status = "In progress";
@@ -185,7 +185,7 @@ $count3=mysqli_num_rows($result3);
               
             </div>
             <div class="card-body">
-              <form action="uploadassesment1.php" method="post" enctype="multipart/form-data">
+              <form action="uploadassesment1" method="post" enctype="multipart/form-data">
                 <label>Note: pdf format only</label><br>
                 
                 <label>Segment</label>

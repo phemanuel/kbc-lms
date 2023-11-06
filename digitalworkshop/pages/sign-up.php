@@ -84,7 +84,7 @@
               
             </div>
             <div class="card-body">
-              <form action="acctsave.php" method="post" enctype="multipart/form-data">
+              <form action="acctsave" method="post" enctype="multipart/form-data">
                 <label>Email Address</label>
                 <div class="mb-3">
                   <input type="Email" name="user_email" class="form-control" placeholder="" aria-label="Email" aria-describedby="email-addon" required >

@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='../pages/logout.php';
+window.location.href='../pages/logout';
 </script>";
 }
 else {
@@ -44,8 +44,8 @@ a:
 	        <div class="uk-navbar-right">
 	          <ul class="uk-navbar-nav uk-visible@m" data-uk-scrollspy-nav="closest: li; scroll: true; offset: 80">
 	            
-                <li ><a href="../pages/dashboardcheck.php">Dashboard</a></li>
-                <li ><a href="../pages/logout.php">Logout</a></li>
+                <li ><a href="../pages/dashboardcheck">Dashboard</a></li>
+                <li ><a href="../pages/logout">Logout</a></li>
 	            
 	          </ul>
 	          
@@ -397,7 +397,7 @@ a:
         <div data-uk-sticky="offset: 100; bottom: true; media: @m">
           <div class="uk-card uk-card-default uk-card-body uk-width-1-1 uk-border-rounded-large">
             
-            <a href="../pages/assesment.php" class="uk-button uk-button-primary-preserve uk-button-large uk-width-1-1">Submit Assessment</a>
+            <a href="../pages/assesment" class="uk-button uk-button-primary-preserve uk-button-large uk-width-1-1">Submit Assessment</a>
             
             
             <p class="uk-text-center"><a href="#contact" class="uk-link-muted" data-uk-scroll="offset: 100">Have a question, contact us</a></p>

@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -90,7 +90,7 @@ $pic_dir = $rowval['pic_dir'];
     <div class="collapse navbar-collapse  w-auto  max-height-vh-100 h-100" id="sidenav-collapse-main">
       <ul class="navbar-nav">
       <li class="nav-item">
-          <a class="nav-link  active" href="dashboardcheck.php">
+          <a class="nav-link  active" href="dashboardcheck">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Dashboard </title>
@@ -113,7 +113,7 @@ $pic_dir = $rowval['pic_dir'];
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong>Course</strong></h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="studentenroll.php">
+          <a class="nav-link  " href="studentenroll">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Enrolled Students</title>
@@ -135,7 +135,7 @@ $pic_dir = $rowval['pic_dir'];
      
 
         <li class="nav-item">
-          <a class="nav-link  " href="assesment.php">
+          <a class="nav-link  " href="assesment">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Assessment</title>
@@ -157,7 +157,7 @@ $pic_dir = $rowval['pic_dir'];
         
         
         <li class="nav-item">
-          <a class="nav-link  " href="project.php">
+          <a class="nav-link  " href="project">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Project</title>
@@ -184,7 +184,7 @@ $pic_dir = $rowval['pic_dir'];
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong></strong></h6>
         </li>
          <li class="nav-item">
-          <a class="nav-link  " href="logout.php">
+          <a class="nav-link  " href="logout">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Log out</title>
@@ -226,7 +226,7 @@ $pic_dir = $rowval['pic_dir'];
           </div>
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item d-flex align-items-center">
-              <a href="logout.php" class="nav-link text-white font-weight-bold px-0">
+              <a href="logout" class="nav-link text-white font-weight-bold px-0">
                 <i class="fa fa-user me-sm-1"></i>
                 <span class="d-sm-inline d-none">Log out</span>
               </a>
@@ -317,7 +317,7 @@ echo "<table class='table align-items-center mb-0'><thead><tr><th class='mb-0 te
    $c=0;
      while($row = $result->fetch_assoc()) {
    //$c++ ;
-          echo "<tr><td class='text-xs font-weight-bold mb-0'>" . ++$c. "</td><td class='text-xs font-weight-bold mb-0'>" .$row["student_name"]." - "."Project Submission ". "</td><td class='text-xs font-weight-bold mb-0'>" . $row["date_submit"]. "</td><td class='text-xs font-weight-bold mb-0'>" . $row["review_status"]. "</td><td><a target='_blank' class='btn btn-info btn-xs' href='reviewproject.php?id=". $row["ID"]."'>Review</a></td></tr>";
+          echo "<tr><td class='text-xs font-weight-bold mb-0'>" . ++$c. "</td><td class='text-xs font-weight-bold mb-0'>" .$row["student_name"]." - "."Project Submission ". "</td><td class='text-xs font-weight-bold mb-0'>" . $row["date_submit"]. "</td><td class='text-xs font-weight-bold mb-0'>" . $row["review_status"]. "</td><td><a target='_blank' class='btn btn-info btn-xs' href='reviewproject?id=". $row["ID"]."'>Review</a></td></tr>";
      
   
      }
@@ -427,7 +427,7 @@ echo "<table class='table align-items-center mb-0'><thead><tr><th class='mb-0 te
           <a href="https://twitter.com/intent/tweet?text=Check%20Soft%20UI%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
             <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
           </a>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
+          <a href="https://www.facebook.com/sharer/sharer?u=https://www.creative-tim.com/product/soft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
             <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
           </a>
         </div>

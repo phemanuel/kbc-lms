@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='../pages/logout.php';
+window.location.href='../pages/logout';
 </script>";
 }
 else {
@@ -32,7 +32,7 @@ else{
 
 echo "<script>
 alert('If you have submit your assessment, wait for approval before you proceed.');
-window.location.href='../pages/dashboardcheck.php';
+window.location.href='../pages/dashboardcheck';
 </script>";
 }
 
@@ -69,8 +69,8 @@ a:
 	        <div class="uk-navbar-right">
 	          <ul class="uk-navbar-nav uk-visible@m" data-uk-scrollspy-nav="closest: li; scroll: true; offset: 80">
 	            
-                <li ><a href="../pages/dashboardcheck.php">Dashboard</a></li>
-                <li ><a href="../pages/logout.php">Logout</a></li>
+                <li ><a href="../pages/dashboardcheck">Dashboard</a></li>
+                <li ><a href="../pages/logout">Logout</a></li>
 	            
 	          </ul>
 	          
@@ -363,7 +363,7 @@ a:
         <div data-uk-sticky="offset: 100; bottom: true; media: @m">
           <div class="uk-card uk-card-default uk-card-body uk-width-1-1 uk-border-rounded-large">
             
-            <a href="../pages/assesment.php" class="uk-button uk-button-primary-preserve uk-button-large uk-width-1-1">Submit Assessment</a>
+            <a href="../pages/assesment" class="uk-button uk-button-primary-preserve uk-button-large uk-width-1-1">Submit Assessment</a>
             
             
           </div>			
@@ -468,7 +468,7 @@ a:
     <button class="uk-offcanvas-close" type="button" data-uk-close="ratio: 1.2"></button>
     
     <div class="uk-margin-medium-top">
-      <a class="uk-button uk-width-1-1 uk-button-primary-light" href="../pages/dashboardcheck.php">Dashboard</a>
+      <a class="uk-button uk-width-1-1 uk-button-primary-light" href="../pages/dashboardcheck">Dashboard</a>
     </div>
     <div class="uk-margin-medium-top uk-text-center">
       <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center">

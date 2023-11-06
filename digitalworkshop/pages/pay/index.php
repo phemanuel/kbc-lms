@@ -116,7 +116,7 @@ $amountword = $class_obj->convert_number($total_amount);
 function reload()
 {
 img = document.getElementById("capt");
-img.src="captcha-image-adv.php?rand_number=" + Math.random();
+img.src="captcha-image-adv?rand_number=" + Math.random();
 }
 </script>
 <!-- Font Icon -->
@@ -249,11 +249,11 @@ paymentForm.addEventListener("submit", payWithPaystack, false);
       callback: function(response){
        var reference = response.reference;
       alert('Payment complete! Reference: ' + reference)
-       window.location = "verify_transaction.php?reference=" + response.reference;
+       window.location = "verify_transaction?reference=" + response.reference;
       },
       onClose: function(){
           alert('Transaction Cancelled.');
-          window.location = "index.php?transaction=cancel" ;
+          window.location = "index?transaction=cancel" ;
       }
     });
     handler.openIframe();

@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -64,12 +64,12 @@ $current_stage = $rowval['current_stage'];
 }
   //====
   $link_name = "Continue" ;
-  $link = "classroom.php" ;
+  $link = "classroom" ;
 
 }
 elseif ($count1== 0){
   $link_name = "Enroll" ;
-  $link = "enroll.php" ;
+  $link = "enroll" ;
   $progress = "0";
   $current_stage = "N/A";
 $course_status = "In progress";
@@ -107,7 +107,7 @@ elseif ($course_status == "Completed") {
 
   echo "<script>
 alert('Your project has been approved, proceed to view your certificate..')
-window.location.href='dasboardcheck.php';
+window.location.href='dasboardcheck';
 </script>";
 
 }
@@ -200,7 +200,7 @@ a:
               
             </div>
             <div class="card-body">
-              <form action="uploadproject1.php" method="post" enctype="multipart/form-data">
+              <form action="uploadproject1" method="post" enctype="multipart/form-data">
                 <label>1. Link to a video of yourself talking about your new skill.</label><br>
 
                  <div class="mb-3"> 

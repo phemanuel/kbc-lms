@@ -39,14 +39,14 @@ $_SESSION['pic_dir'] = $rowval['pic_dir'];
 
 }
 echo "<script>
-window.location.href='dashboard.php';
+window.location.href='dashboard';
 </script>";
 
 }
 else {
 echo "<script>
 alert('Invalid Email address or password.');
-window.location.href='index.php';
+window.location.href='index';
 </script>";
 
 }

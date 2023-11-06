@@ -6,7 +6,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -67,12 +67,12 @@ $current_stage = $rowval['current_stage'];
 }
   //====
   $link_name = "Continue" ;
-  $link = "classroom.php" ;
+  $link = "classroom" ;
 
 }
 elseif ($count1== 0){
   $link_name = "Enroll" ;
-  $link = "enroll.php" ;
+  $link = "enroll" ;
   $progress = "0";
   $current_stage = "N/A";
 $course_status = "In progress";
@@ -105,7 +105,7 @@ if ($current_stage < 6) {
 
 echo "<script>
 alert('You cannot submit your project now as you have not completed the required lessons.')
-window.location.href='dashboardcheck.php';
+window.location.href='dashboardcheck';
 </script>";
 
 }
@@ -168,7 +168,7 @@ else {
     <div class="collapse navbar-collapse  w-auto  max-height-vh-100 h-100" id="sidenav-collapse-main">
       <ul class="navbar-nav">
       <li class="nav-item">
-          <a class="nav-link" href="dashboardcheck.php">
+          <a class="nav-link" href="dashboardcheck">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Dashboard </title>
@@ -191,7 +191,7 @@ else {
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong>Course</strong></h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="schedule.php">
+          <a class="nav-link  " href="schedule">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Course Schedule</title>
@@ -211,7 +211,7 @@ else {
           </a>
         </li>
      <li class="nav-item">
-          <a class="nav-link  " href="coursecheck.php">
+          <a class="nav-link  " href="coursecheck">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Course Outline</title>
@@ -232,7 +232,7 @@ else {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link  " href="assesment.php">
+          <a class="nav-link  " href="assesment">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Assessment</title>
@@ -254,7 +254,7 @@ else {
         
         
         <li class="nav-item">
-          <a class="nav-link  active" href="project.php">
+          <a class="nav-link  active" href="project">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Project</title>
@@ -278,7 +278,7 @@ else {
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong>Account</strong></h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="profile.php">
+          <a class="nav-link  " href="profile">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Profile</title>
@@ -299,7 +299,7 @@ else {
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="acctsetting.php">
+          <a class="nav-link  " href="acctsetting">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Account Settings</title>
@@ -323,7 +323,7 @@ else {
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong>Enquiry</strong></h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="schedule.php">
+          <a class="nav-link  " href="schedule">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Contact Us</title>
@@ -347,7 +347,7 @@ else {
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong></strong></h6>
         </li>
          <li class="nav-item">
-          <a class="nav-link  " href="logout.php">
+          <a class="nav-link  " href="logout">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Log out</title>
@@ -380,7 +380,7 @@ else {
             <li class="breadcrumb-item text-sm"><a class="text-white opacity-5" href="javascript:;"></a></li>
             <li class="breadcrumb-item text-sm text-white active" aria-current="page">Project</li>
           </ol>
-          <a href="dashboardcheck.php"><h6 class="text-white font-weight-bolder ms-2">Dashboard</h6></a>
+          <a href="dashboardcheck"><h6 class="text-white font-weight-bolder ms-2">Dashboard</h6></a>
         </nav>
         <div class="collapse navbar-collapse me-md-0 me-sm-4 mt-sm-0 mt-2" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -388,7 +388,7 @@ else {
           </div>
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item d-flex align-items-center">
-              <a href="logout.php" class="nav-link text-white font-weight-bold px-0">
+              <a href="logout" class="nav-link text-white font-weight-bold px-0">
                 <i class="fa fa-user me-sm-1"></i>
                 <span class="d-sm-inline d-none">Log out</span>
               </a>
@@ -450,7 +450,7 @@ else {
                 <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
                   <div class="card h-100 card-plain border">
                     <div class="card-body d-flex flex-column justify-content-center text-center">
-                      <a href="uploadproject.php">
+                      <a href="uploadproject">
                         <i class="fa fa-plus text-secondary mb-3"></i>
                         <h5 class=" text-secondary"> New Project </h5>
                       </a>
@@ -493,7 +493,7 @@ echo "<table class='table align-items-center mb-0'><thead><tr><th class='mb-0 te
    $c=0;
      while($row = $result->fetch_assoc()) {
    //$c++ ;
-          echo "<tr><td class='text-xs font-weight-bold mb-0'>" ."Project Submission ". ++$c. "</td><td class='text-xs font-weight-bold mb-0'>" . $row["date_submit"]. "</td><td class='text-xs font-weight-bold mb-0'>" . $row["review_status"]. "</td><td><a target='_blank' class='btn btn-info btn-xs' href='checkreview.php?id=". $row["ID"]."'>Check Review</a></td></tr>";
+          echo "<tr><td class='text-xs font-weight-bold mb-0'>" ."Project Submission ". ++$c. "</td><td class='text-xs font-weight-bold mb-0'>" . $row["date_submit"]. "</td><td class='text-xs font-weight-bold mb-0'>" . $row["review_status"]. "</td><td><a target='_blank' class='btn btn-info btn-xs' href='checkreview?id=". $row["ID"]."'>Check Review</a></td></tr>";
      
   
      }

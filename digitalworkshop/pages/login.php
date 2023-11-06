@@ -89,7 +89,7 @@
                   <p class="mb-0">Enter your email and password to sign in</p>
                 </div>
                 <div class="card-body">
-                  <form action="logincheck.php" method="post">
+                  <form action="logincheck" method="post">
                     <label>Email Address</label>
                     <div class="mb-3">
                       <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon" name="user_email" id="user_email">
@@ -106,7 +106,7 @@
                       <button type="submit" class="btn bg-gradient-info w-100 mt-4 mb-0">Sign in</button>
                     </div><br>
                     <div>                     
-                      <a href="resetpassword.php">Forgot Password ?</a> | Don't have an account <a href="sign-up.php"> Sign Up</a>
+                      <a href="resetpassword">Forgot Password ?</a> | Don't have an account <a href="sign-up"> Sign Up</a>
                     </div>
                   </form>
                 </div>

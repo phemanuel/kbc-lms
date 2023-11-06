@@ -24,28 +24,28 @@ if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-
   //$link1_Err = "Invalid URL";
 echo "<script>
 alert('The link submitted for question 1 is not valid.')
-window.location.href='uploadproject.php';
+window.location.href='uploadproject';
 </script>";
 }
 elseif (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$link_2)) {
   //$link1_Err = "Invalid URL";
 echo "<script>
 alert('The link submitted for question 2 is not valid.')
-window.location.href='uploadproject.php';
+window.location.href='uploadproject';
 </script>";
 }
 elseif (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$link_3)) {
   //$link1_Err = "Invalid URL";
 echo "<script>
 alert('The link submitted for question 3 is not valid.')
-window.location.href='uploadproject.php';
+window.location.href='uploadproject';
 </script>";
 }
 elseif (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$link_4)) {
   //$link1_Err = "Invalid URL";
 echo "<script>
 alert('The link submitted for question 4 is not valid.')
-window.location.href='uploadproject.php';
+window.location.href='uploadproject';
 </script>";
 }
 else {
@@ -62,7 +62,7 @@ if (!preg_match("/^[a-zA-Z-' ]*$/",$certificate_name)) {
   //$nameErr = "Only letters and white space allowed";
   echo "<script>
 alert('Only letters and white space allowed for name.')
-window.location.href='uploadproject.php';
+window.location.href='uploadproject';
 </script>";
 }
 else {
@@ -138,6 +138,6 @@ $result4=mysqli_query($conn,$sql4);
 // }
 echo "<script>
 alert('Project submitted sucessfully and is under review.')
-window.location.href='dashboardcheck.php';
+window.location.href='dashboardcheck';
 </script>";
 ?>

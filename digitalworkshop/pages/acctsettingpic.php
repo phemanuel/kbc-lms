@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -128,7 +128,7 @@ $_SESSION['phoneno'] = $rowval['phone_no'];
               
             </div>
             <div class="card-body">
-              <form action="acctsettingpic1.php" method="post" enctype="multipart/form-data">
+              <form action="acctsettingpic1" method="post" enctype="multipart/form-data">
                 <label>Note: jpg format</label>
                 <div class="mb-3">
                  <input type="file" name="file" id="file" class="form-control" required />

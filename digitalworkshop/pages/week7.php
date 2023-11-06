@@ -25,7 +25,7 @@ goto a;
 else{
  echo "<script>
 alert ('You have not enrolled for this course.');
-window.location.href='dashboardcheck.php';
+window.location.href='dashboardcheck';
 </script>";
 
 }
@@ -40,14 +40,14 @@ if ($current_stage>=7) {
 
 	echo "<script>
 
-window.location.href='../coursepage/courseweek7.php';
+window.location.href='../coursepage/courseweek7';
 </script>";
 
 }
 elseif ($current_stage < 6) {
  echo "<script>
 alert ('You have not completed previous lesson, therefore you cannot access the final project.');
-window.location.href='coursepage.php';
+window.location.href='coursepage';
 </script>";
 
 }

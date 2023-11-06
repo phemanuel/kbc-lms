@@ -22,7 +22,7 @@ $current_stage = $rowval['current_stage'];
  
 echo "<script>
 
-window.location.href='coursepage.php';
+window.location.href='coursepage';
 </script>";
 }
 
@@ -30,7 +30,7 @@ else{
 
  echo "<script>
 alert ('You have not enrolled for this course.');
-window.location.href='dashboardcheck.php';
+window.location.href='dashboardcheck';
 </script>";
 }
 //=====

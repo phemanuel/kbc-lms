@@ -56,7 +56,7 @@ die('error:' . mysqli_error($conn));
 //=======================
   echo "<script>
 alert('Upload successful.');
-window.location.href='profile.php';
+window.location.href='profile';
 </script>";
 
  }
@@ -65,7 +65,7 @@ else{
 
 echo "<script>
 alert('Error while uploading logo.');
-window.location.href='profile.php';
+window.location.href='profile';
 </script>";
 }
 

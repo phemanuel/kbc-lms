@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -45,7 +45,7 @@ $_SESSION['student_email'] = $student_email ;
 else {
   echo "<script>
 alert('Project submission unavailable.')
-window.location.href='project1.php';
+window.location.href='project1';
 </script>";
 }
 

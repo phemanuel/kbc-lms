@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -63,12 +63,12 @@ $current_stage = $rowval['current_stage'];
 }
   //====
   $link_name = "Continue" ;
-  $link = "classroom.php" ;
+  $link = "classroom" ;
 
 }
 elseif ($count1== 0){
   $link_name = "Enroll" ;
-  $link = "enroll.php" ;
+  $link = "enroll" ;
   $progress = "0";
   $current_stage = "N/A";
 $course_status = "In progress";
@@ -125,7 +125,7 @@ $assesment4_date = $rowval['assesment4_date'];
 }
   //====
   //$link_name = "Continue" ;
-  //$link = "classroom.php" ;
+  //$link = "classroom" ;
 
 }
 elseif ($count1== 0){
@@ -246,7 +246,7 @@ else {
     <div class="collapse navbar-collapse  w-auto  max-height-vh-100 h-100" id="sidenav-collapse-main">
       <ul class="navbar-nav">
       <li class="nav-item">
-          <a class="nav-link  active" href="dashboardcheck.php">
+          <a class="nav-link  active" href="dashboardcheck">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Dashboard </title>
@@ -269,7 +269,7 @@ else {
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong>Course</strong></h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="schedule.php">
+          <a class="nav-link  " href="schedule">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Course Outline</title>
@@ -289,7 +289,7 @@ else {
           </a>
         </li>
      <li class="nav-item">
-          <a class="nav-link  " href="coursecheck.php">
+          <a class="nav-link  " href="coursecheck">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Classroom</title>
@@ -310,7 +310,7 @@ else {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link  " href="assesment.php">
+          <a class="nav-link  " href="assesment">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Assessment</title>
@@ -332,7 +332,7 @@ else {
         
         
         <li class="nav-item">
-          <a class="nav-link  " href="project.php">
+          <a class="nav-link  " href="project">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Project</title>
@@ -356,7 +356,7 @@ else {
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong>Account</strong></h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="profile.php">
+          <a class="nav-link  " href="profile">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Profile</title>
@@ -377,7 +377,7 @@ else {
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="acctsetting.php">
+          <a class="nav-link  " href="acctsetting">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Account Settings</title>
@@ -401,7 +401,7 @@ else {
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong>Enquiry</strong></h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="schedule.php">
+          <a class="nav-link  " href="schedule">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Contact Us</title>
@@ -425,7 +425,7 @@ else {
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong></strong></h6>
         </li>
          <li class="nav-item">
-          <a class="nav-link  " href="logout.php">
+          <a class="nav-link  " href="logout">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Log out</title>
@@ -466,7 +466,7 @@ else {
           </div>
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item d-flex align-items-center">
-              <a href="logout.php" class="nav-link text-white font-weight-bold px-0">
+              <a href="logout" class="nav-link text-white font-weight-bold px-0">
                 <i class="fa fa-user me-sm-1"></i>
                 <span class="d-sm-inline d-none">Log out</span>
               </a>
@@ -519,7 +519,7 @@ else {
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="schedule.php">Course Outline</a></p>
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="schedule">Course Outline</a></p>
                     <h5 class="font-weight-bolder mb-0">
                       
                       <span class="text-success text-sm font-weight-bolder"></span>
@@ -528,7 +528,7 @@ else {
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <a href="schedule.php"><i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i></a>
+                    <a href="schedule"><i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -541,7 +541,7 @@ else {
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="assesment.php">Assessment</a></p>
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="assesment">Assessment</a></p>
                     <h5 class="font-weight-bolder mb-0">
                       
                       <span class="text-success text-sm font-weight-bolder"><?php echo $count2 ;  ?></span>
@@ -550,7 +550,7 @@ else {
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <a href="assesment.php"><i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i></a>
+                    <a href="assesment"><i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -563,7 +563,7 @@ else {
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                     <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="project.php">Project</a></p>
+                     <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="project">Project</a></p>
                     <h5 class="font-weight-bolder mb-0">
                      
                       <span class="text-danger text-sm font-weight-bolder"><?php echo $count3 ;  ?></span>
@@ -572,7 +572,7 @@ else {
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <a href="project.php"><i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i></a>
+                    <a href="project"><i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -585,7 +585,7 @@ else {
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="coursecheck.php">Enrolled Courses</a></p>
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="coursecheck">Enrolled Courses</a></p>
                     <h5 class="font-weight-bolder mb-0">
                       
                       <span class="text-success text-sm font-weight-bolder"><?php echo $count1 ;  ?></span>
@@ -594,7 +594,7 @@ else {
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                   <a href="coursecheck.php"> <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i></a>
+                   <a href="coursecheck"> <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -613,7 +613,7 @@ else {
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="coursecheck.php">Classroom</a></p>
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="coursecheck">Classroom</a></p>
                     <h5 class="font-weight-bolder mb-0">
                       
                       <span class="text-success text-sm font-weight-bolder"></span>
@@ -622,7 +622,7 @@ else {
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <a href="coursecheck.php"><i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i></a>
+                    <a href="coursecheck"><i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -636,7 +636,7 @@ else {
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                     <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="profile.php">Profile</a></p>
+                     <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="profile">Profile</a></p>
                     <h5 class="font-weight-bolder mb-0">
                      
                       <span class="text-danger text-sm font-weight-bolder"></span>
@@ -645,7 +645,7 @@ else {
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <a href="profile.php"><i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i></a>
+                    <a href="profile"><i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -747,7 +747,7 @@ else {
                   <h6 class="mb-0">Profile Information</h6>
                 </div>
                 <div class="col-md-4 text-end">
-                  <a href="acctsetting.php">
+                  <a href="acctsetting">
                     <i class="fas fa-user-edit text-secondary text-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Profile"></i>
                   </a>
                 </div>

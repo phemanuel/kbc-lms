@@ -2,7 +2,7 @@
 
 echo "<script>
 
-window.location.href='pages/login.php';
+window.location.href='pages/login';
 </script>";
 
 

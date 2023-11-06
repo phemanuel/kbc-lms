@@ -26,7 +26,7 @@ else{
 
 	echo "<script>
 
-window.location.href='project.php';
+window.location.href='project';
 </script>";
 }
 
@@ -39,14 +39,14 @@ if ($review_status == "In review") {
 
 	echo "<script>
 alert('This submission has not been reviewed.');
-window.location.href='project.php';
+window.location.href='project';
 </script>";
 }
 elseif ($review_status == "Reviewed"){
 
 echo "<script>
 
-window.location.href='review.php';
+window.location.href='review';
 </script>";
 
 }

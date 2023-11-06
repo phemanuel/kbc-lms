@@ -14,7 +14,7 @@ else{
 
 	echo "<script>
 alert('Password do not match, re-enter again.')
-window.location.href='resetpassword1.php';
+window.location.href='resetpassword1';
 </script>";
 }
 exit;
@@ -31,6 +31,6 @@ die('error:' . mysqli_error($conn));
 
 echo "<script>
 alert('Password reset successful, login into your account.')
-window.location.href='login.php';
+window.location.href='login';
 </script>";
 ?>

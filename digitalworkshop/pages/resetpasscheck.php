@@ -17,14 +17,14 @@ $count1=mysqli_num_rows($result1);
 // If result matched $myusername and $mypassword, table row must be 1 row
 if($count1==1){
 echo "<script>
-window.location.href='resetpassword1.php';
+window.location.href='resetpassword1';
 </script>";
 }
 else {
 
 echo "<script>
 alert('Email is invalid.');
-window.location.href='resetpassword.php';
+window.location.href='resetpassword';
 </script>";
 }
 

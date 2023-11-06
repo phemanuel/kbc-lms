@@ -23,6 +23,6 @@ die('error:' . mysqli_error($conn));
 
 echo "<script>
 alert('Account update successful.')
-window.location.href='profile.php';
+window.location.href='profile';
 </script>";
 ?>

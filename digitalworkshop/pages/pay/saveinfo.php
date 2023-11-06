@@ -53,12 +53,12 @@ if (!mysqli_query($conn,$sql1))
 {
 die('error:' . mysqli_error());
 }
-header("location: ../courseenroll.php");
+header("location: ../courseenroll");
 exit;
 
 b:
 
-header("location: error.php");
+header("location: error");
 
 
 

@@ -27,7 +27,7 @@
 	        <div class="uk-navbar-right">
 	          <ul class="uk-navbar-nav uk-visible@m" data-uk-scrollspy-nav="closest: li; scroll: true; offset: 80">
 	            
-                <li ><a href="logout.php">Logout</a></li>
+                <li ><a href="logout">Logout</a></li>
 	            
 	          </ul>
 	          

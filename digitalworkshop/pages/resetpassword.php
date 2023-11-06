@@ -89,7 +89,7 @@
                   <p class="mb-0">Enter your email and password to reset your password</p>
                 </div>
                 <div class="card-body">
-                  <form action="resetpasscheck.php" method="post">
+                  <form action="resetpasscheck" method="post">
                     <label>Email Address</label>
                     <div class="mb-3">
                       <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon" name="user_email" id="user_email">

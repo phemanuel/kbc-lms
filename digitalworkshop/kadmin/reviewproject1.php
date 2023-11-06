@@ -34,6 +34,6 @@ $result1=mysqli_query($conn,$sql1);
 
 echo "<script>
 alert('Your review submission is successful.')
-window.location.href='dashboardcheck.php';
+window.location.href='dashboardcheck';
 </script>";
 ?>

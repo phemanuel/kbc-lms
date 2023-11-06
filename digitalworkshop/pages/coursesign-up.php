@@ -90,7 +90,7 @@ $banner_pic=$_SESSION['banner_pic'];
               
             </div>
             <div class="card-body">
-              <form action="courseacctsave.php" method="post" enctype="multipart/form-data">
+              <form action="courseacctsave" method="post" enctype="multipart/form-data">
                 <label>Last Name</label>
                 <div class="mb-3">
                   <input type="text" name="last_name" class="form-control" placeholder="" aria-label="Email" aria-describedby="email-addon" required >

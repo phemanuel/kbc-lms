@@ -50,12 +50,12 @@ $_SESSION['cus_email'] = $cus_email ;
   //date_default_timzone_set('Africa/Lagos');
   //$date_time =  date('Y/m/d h:i:s a',time());
   
-  header("location: saveinfo.php");
+  header("location: saveinfo");
   }
   
   else{
   echo $response ;
-   header("location: error.php");
+   header("location: error");
   }
   
 ?>

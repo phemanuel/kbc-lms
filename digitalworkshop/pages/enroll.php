@@ -20,7 +20,7 @@ else{
 
  echo "<script>
 alert ('You have not paid for this course.');
-window.location.href='dashboardcheck.php';
+window.location.href='dashboardcheck';
 </script>";
 }
 //======
@@ -54,7 +54,7 @@ else{
 
 	echo "<script>
 alert('No course available for enrollment.');
-window.location.href='dashboardcheck.php';
+window.location.href='dashboardcheck';
 </script>";
 }
 
@@ -105,7 +105,7 @@ die('error:' . mysqli_error($conn));
 
 echo "<script>
 alert('Enrollment successful, you can continue your course.');
-window.location.href='dashboardcheck.php';
+window.location.href='dashboardcheck';
 </script>";
 
 mysqli_close($conn);

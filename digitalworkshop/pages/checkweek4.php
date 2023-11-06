@@ -5,7 +5,7 @@ $_SESSION['week_no'] = 4 ;
 $_SESSION['outline'] = "Specialized Virtual Assistant Skills";
 
 echo "<script>
-window.location.href='courseschedule.php';
+window.location.href='courseschedule';
 </script>";
 
 ?>

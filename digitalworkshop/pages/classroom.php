@@ -33,7 +33,7 @@ if($current_stage==1){
 
 	echo "<script>
 
-window.location.href='../coursepage/courseweek1.php';
+window.location.href='../coursepage/courseweek1';
 </script>";
 
 }
@@ -41,7 +41,7 @@ elseif($current_stage==2){
 
 	echo "<script>
 
-window.location.href='../coursepage/courseweek2.php';
+window.location.href='../coursepage/courseweek2';
 </script>";
 
 }
@@ -50,7 +50,7 @@ elseif($current_stage==3){
 
 	echo "<script>
 
-window.location.href='../coursepage/courseweek3.php';
+window.location.href='../coursepage/courseweek3';
 </script>";
 
 }
@@ -58,13 +58,13 @@ elseif($current_stage==4){
 
 	echo "<script>
 
-window.location.href='../coursepage/courseweek4.php';
+window.location.href='../coursepage/courseweek4';
 </script>";
 }
 else{
 echo "<script>
 
-window.location.href='../coursepage/courseweek4.php';
+window.location.href='../coursepage/courseweek4';
 </script>";
 
 }

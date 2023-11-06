@@ -153,7 +153,7 @@
               <span>(20)</span>
             </div>
           </div>
-          <a href="../pages/dashboard.php" class="uk-position-cover"></a>
+          <a href="../pages/dashboard" class="uk-position-cover"></a>
         </div>
       </div>
       
@@ -226,10 +226,10 @@
     <button class="uk-offcanvas-close" type="button" data-uk-close="ratio: 1.2"></button>
     
     <div class="uk-margin-medium-top">
-      <a class="uk-button uk-width-1-1 uk-button-primary-light" href="../pages/sign-up.php">Sign Up</a>
+      <a class="uk-button uk-width-1-1 uk-button-primary-light" href="../pages/sign-up">Sign Up</a>
     </div>
     <div class="uk-margin-medium-top">
-      <a class="uk-button uk-width-1-1 uk-button-primary-light" href="../pages/login.php">Sign In</a>
+      <a class="uk-button uk-width-1-1 uk-button-primary-light" href="../pages/login">Sign In</a>
     </div>
     <div class="uk-margin-medium-top uk-text-center">
       <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center">

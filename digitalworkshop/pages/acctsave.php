@@ -17,7 +17,7 @@ if($count==1){
 
 	echo "<script>
 alert('An account has been created with this email address, try using another email.');
-window.location.href='sign-up.php';
+window.location.href='sign-up';
 </script>";
 }
 else{

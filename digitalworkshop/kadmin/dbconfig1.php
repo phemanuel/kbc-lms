@@ -1,5 +1,5 @@
 <?php
-//database_connection.php
+//database_connection
 
 //$connect = new PDO('mysql:host=localhost;dbname=testing2', 'root', 'root1987');
   $servername = "localhost";

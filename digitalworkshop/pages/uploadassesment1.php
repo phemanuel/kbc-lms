@@ -59,7 +59,7 @@ if($count2==1){
 
 	echo "<script>
 alert('An assesment for this week has already been submitted.');
-window.location.href='assesment.php';
+window.location.href='assesment';
 </script>";
 }
 else{
@@ -89,7 +89,7 @@ $progress = $rowval['progress'];
 if ($current_stage < $week_no ) {
 	echo "<script>
 alert('You have not uploaded assessment for previous session.');
-window.location.href='assesment.php';
+window.location.href='assesment';
 </script>";
 	
 }
@@ -161,7 +161,7 @@ die('error:' . mysqli_error($conn));
 
 echo "<script>
 alert('Assessment has been uploaded successfully.');
-window.location.href='assesment.php';
+window.location.href='assesment';
 </script>";
 
 mysqli_close($conn);
@@ -170,7 +170,7 @@ else{
 
 echo "<script>
 alert('Error while uploading assessment.');
-window.location.href='assesment.php';
+window.location.href='assesment';
 </script>";
 }
 

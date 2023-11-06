@@ -29,7 +29,7 @@
 	          <ul class="uk-navbar-nav uk-visible@m" data-uk-scrollspy-nav="closest: li; scroll: true; offset: 80">
 	            
                 
-                <li ><a href="../pages/logout.php">Logout</a></li>
+                <li ><a href="../pages/logout">Logout</a></li>
 	            
 	          </ul>
 	          
@@ -89,7 +89,7 @@
       <div class="uk-width-1-3@m">
         <div data-uk-sticky="offset: 100; bottom: true; media: @m">
           <div class="uk-card uk-card-default uk-card-body uk-width-1-1 uk-border-rounded-large">
-            <form action="welcome_video_save.php" method="POST">
+            <form action="welcome_video_save" method="POST">
               <p class="uk-text-center"><a href="#contact" class="uk-link-muted" data-uk-scroll="offset: 100">Do you think you are ready for the freelance bootcamp?</a></p>
               <strong><p class="uk-text-center"><a href="#contact" class="uk-link-muted" data-uk-scroll="offset: 100">Note: Your feedback is compulsory.</a></p></strong>
             <p><select name="feedback" class="uk-input uk-form-medium">

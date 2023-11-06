@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -62,12 +62,12 @@ $course_status = $rowval['course_status'];
 }
   //====
   $link_name = "Continue" ;
-  $link = "classroom.php" ;
+  $link = "classroom" ;
 
 }
 elseif ($count1== 0){
   $link_name = "Enroll" ;
-  $link = "enroll.php" ;
+  $link = "enroll" ;
   $progress = "0";
 $course_status = "In progress";
 }
@@ -149,7 +149,7 @@ $count3=mysqli_num_rows($result3);
     <div class="collapse navbar-collapse  w-auto  max-height-vh-100 h-100" id="sidenav-collapse-main">
       <ul class="navbar-nav">
       <li class="nav-item">
-          <a class="nav-link  active" href="dashboardcheck.php">
+          <a class="nav-link  active" href="dashboardcheck">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Dashboard </title>
@@ -172,7 +172,7 @@ $count3=mysqli_num_rows($result3);
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong>Course</strong></h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="schedule.php">
+          <a class="nav-link  " href="schedule">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Course Schedule</title>
@@ -192,7 +192,7 @@ $count3=mysqli_num_rows($result3);
           </a>
         </li>
      <li class="nav-item">
-          <a class="nav-link  " href="coursecheck.php">
+          <a class="nav-link  " href="coursecheck">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Course</title>
@@ -213,7 +213,7 @@ $count3=mysqli_num_rows($result3);
         </li>
 
         <li class="nav-item">
-          <a class="nav-link  " href="assesment.php">
+          <a class="nav-link  " href="assesment">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Assesment</title>
@@ -235,7 +235,7 @@ $count3=mysqli_num_rows($result3);
         
         
         <li class="nav-item">
-          <a class="nav-link  " href="project.php">
+          <a class="nav-link  " href="project">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Project</title>
@@ -259,7 +259,7 @@ $count3=mysqli_num_rows($result3);
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"><strong>Account</strong></h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="profile.php">
+          <a class="nav-link  " href="profile">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Profile</title>
@@ -280,7 +280,7 @@ $count3=mysqli_num_rows($result3);
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="acctsetting.php">
+          <a class="nav-link  " href="acctsetting">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Account Settings</title>
@@ -301,7 +301,7 @@ $count3=mysqli_num_rows($result3);
         </li>
         
          <li class="nav-item">
-          <a class="nav-link  " href="logout.php">
+          <a class="nav-link  " href="logout">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Log out</title>
@@ -342,7 +342,7 @@ $count3=mysqli_num_rows($result3);
           </div>
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item d-flex align-items-center">
-              <a href="logout.php" class="nav-link text-white font-weight-bold px-0">
+              <a href="logout" class="nav-link text-white font-weight-bold px-0">
                 <i class="fa fa-user me-sm-1"></i>
                 <span class="d-sm-inline d-none">Log out</span>
               </a>
@@ -395,7 +395,7 @@ $count3=mysqli_num_rows($result3);
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="schedule.php">Course Schedule</a></p>
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="schedule">Course Schedule</a></p>
                     <h5 class="font-weight-bolder mb-0">
                       
                       <span class="text-success text-sm font-weight-bolder"></span>
@@ -404,7 +404,7 @@ $count3=mysqli_num_rows($result3);
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <a href="schedule.php"><i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i></a>
+                    <a href="schedule"><i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -417,7 +417,7 @@ $count3=mysqli_num_rows($result3);
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="assesment.php">Assessment</a></p>
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="assesment">Assessment</a></p>
                     <h5 class="font-weight-bolder mb-0">
                       
                       <span class="text-success text-sm font-weight-bolder"><?php echo $count2 ;  ?></span>
@@ -426,7 +426,7 @@ $count3=mysqli_num_rows($result3);
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <a href="assesment.php"><i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i></a>
+                    <a href="assesment"><i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -439,7 +439,7 @@ $count3=mysqli_num_rows($result3);
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                     <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="project.php">Project</a></p>
+                     <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="project">Project</a></p>
                     <h5 class="font-weight-bolder mb-0">
                      
                       <span class="text-danger text-sm font-weight-bolder"><?php echo $count3 ;  ?></span>
@@ -448,7 +448,7 @@ $count3=mysqli_num_rows($result3);
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                    <a href="project.php"><i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i></a>
+                    <a href="project"><i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -461,7 +461,7 @@ $count3=mysqli_num_rows($result3);
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="coursecheck.php">Enrolled Courses</a></p>
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold"><a href="coursecheck">Enrolled Courses</a></p>
                     <h5 class="font-weight-bolder mb-0">
                       
                       <span class="text-success text-sm font-weight-bolder"><?php echo $count1 ;  ?></span>
@@ -470,7 +470,7 @@ $count3=mysqli_num_rows($result3);
                 </div>
                 <div class="col-4 text-end">
                   <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                   <a href="coursecheck.php"> <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i></a>
+                   <a href="coursecheck"> <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div>
@@ -523,13 +523,13 @@ $count3=mysqli_num_rows($result3);
               
             <table width="100%" border="0" cellpadding="3" cellspacing="3" >
   <tr>
-    <td><p class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark"></strong> &nbsp; Your next <strong>Career Session</strong> comes up on July 30, 2022 &nbsp;<a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="careersession.php">View details</a></p></td>
+    <td><p class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark"></strong> &nbsp; Your next <strong>Career Session</strong> comes up on July 30, 2022 &nbsp;<a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="careersession">View details</a></p></td>
   </tr>
   <tr>
-    <td><p class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark"></strong> &nbsp; Your next <strong>Connect Session</strong> comes up on July 30, 2022 &nbsp;<a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="connectsession.php">View details</a></p></td>
+    <td><p class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark"></strong> &nbsp; Your next <strong>Connect Session</strong> comes up on July 30, 2022 &nbsp;<a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="connectsession">View details</a></p></td>
   </tr>
   <tr>
-    <td><p><a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="schedule.php">View course schedule</a></p></td>
+    <td><p><a class="btn btn-link pe-3 ps-0 mb-0 ms-auto" href="schedule">View course schedule</a></p></td>
   </tr>
 </table>
             </div>
@@ -544,7 +544,7 @@ $count3=mysqli_num_rows($result3);
                   <h6 class="mb-0">Profile Information</h6>
                 </div>
                 <div class="col-md-4 text-end">
-                  <a href="acctsetting.php">
+                  <a href="acctsetting">
                     <i class="fas fa-user-edit text-secondary text-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Profile"></i>
                   </a>
                 </div>
@@ -673,7 +673,7 @@ $count3=mysqli_num_rows($result3);
           <a href="https://twitter.com/intent/tweet?text=Check%20Soft%20UI%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
             <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
           </a>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
+          <a href="https://www.facebook.com/sharer/sharer?u=https://www.creative-tim.com/product/soft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
             <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
           </a>
         </div>

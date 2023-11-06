@@ -27,7 +27,7 @@ goto g;
 else{
 echo "<script>
 alert('Please watch the welcome video before you can access the lessons.');
-window.location.href='../coursepage/welcome_video.php';
+window.location.href='../coursepage/welcome_video';
 </script>";
 }
 
@@ -66,7 +66,7 @@ goto d ;
 else {
 echo "<script>
 alert('Invalid Email address or password.');
-window.location.href='login.php';
+window.location.href='login';
 </script>";
 
 }
@@ -77,14 +77,14 @@ d:
     
     if ($account_status == 1) {
          echo "<script>
-window.location.href='dashboard.php';
+window.location.href='dashboard';
 </script>";
         
     }
     elseif ($account_status == 0) {
          echo "<script>
          alert('Your account has been deactivated, please send a mail to emmanexitconsult@gmail.com.')
-window.location.href='login.php';
+window.location.href='login';
 </script>";
    
 }

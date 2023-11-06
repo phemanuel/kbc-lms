@@ -22,7 +22,7 @@ $_SESSION['course_name'] = "SOCAIL MEDIA MANAGEMENT BLUEPRINT";
 $_SESSION['amount'] = "15000";
  echo "<script>
 alert ('You have not paid for this course.');
-window.location.href='pay/index.php';
+window.location.href='pay/index';
 </script>";
 }
 //======
@@ -56,7 +56,7 @@ else{
 
 	echo "<script>
 alert('No course available for enrollment.');
-window.location.href='profile.php';
+window.location.href='profile';
 </script>";
 }
 
@@ -108,7 +108,7 @@ die('error:' . mysqli_error($conn));
 
 echo "<script>
 alert('Enrollment successful, you can continue your course.');
-window.location.href='dashboardcheck.php';
+window.location.href='dashboardcheck';
 </script>";
 
 mysqli_close($conn);

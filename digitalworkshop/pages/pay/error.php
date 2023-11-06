@@ -17,7 +17,7 @@ $pcategory = $_SESSION['pcategory'] ;
 function reload()
 {
 img = document.getElementById("capt");
-img.src="captcha-image-adv.php?rand_number=" + Math.random();
+img.src="captcha-image-adv?rand_number=" + Math.random();
 }
 function MM_goToURL() { //v3.0
   var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
@@ -66,7 +66,7 @@ function MM_goToURL() { //v3.0
               <p>&nbsp;</p>
   <div class="form-submit">
    
-                    <input type="button"  class="submit" onClick="MM_goToURL('parent','../index.php');return document.MM_returnValue" value="Finish"  />
+                    <input type="button"  class="submit" onClick="MM_goToURL('parent','../index');return document.MM_returnValue" value="Finish"  />
   </div>
                 </form>
       </div>

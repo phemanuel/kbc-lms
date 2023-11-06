@@ -4,7 +4,7 @@ include('dbconfig.php');
 if ( empty ( $_SESSION['user_email'])) {
 echo "<script>
 alert('Your session has expired.')
-window.location.href='logout.php';
+window.location.href='logout';
 </script>";
 }
 else {
@@ -105,7 +105,7 @@ $user_email = $_SESSION['user_email'];
                   <p class="mb-0">Enter your new password</p>
                 </div>
                 <div class="card-body">
-                  <form action="resetpassword2.php" method="post">
+                  <form action="resetpassword2" method="post">
                     <label>Email Address</label>
                     <div class="mb-3">
                       <p><?php echo $user_email ; ?></p>
